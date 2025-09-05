@@ -15,21 +15,25 @@
             padding: 10px;
         }
         h2{
-            color: #333;
+            color: #4e0083;
             text-align: left;
             font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
             
         }
         p{
             font-size: 20px;
             line-height: 1.6;
-            color: #3b106f;
+            color: #14002d;
             max-width: 800px;
             margin: 20px auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .link-container {
   text-align: left;
 }
+
+
 
         
         a {
@@ -51,9 +55,10 @@ img {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #cbdbea;   /* LinkedIn blue border */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(138, 35, 35, 0.2);
   text-align: left;
   margin-left: 40px;
+  margin-top: 100px;
   
 }
 /* Center image horizontally */
@@ -75,7 +80,37 @@ footer{
     bottom: 0;
     width: 100%;
 }
+.music-container p{
+    text-align: center;
+    margin-top: 50px;
+    text-emphasis-color: #c6ced5;
+    text-shadow: 2px 2px 4px #aaa;
+    background-color: #a78bbc;
+    text-decoration: wavy;
+}
+.music-container iframe{
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #cbdbea;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}   
     
+.bg-container iframe{
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #cbdbea;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}   
+.bg-container p{
+    text-align: center;
+    margin-top: 50px;
+    text-emphasis-color: #c6ced5;
+    text-shadow: 2px 2px 4px #aaa;
+    background-color: #a78bbc;
+    text-decoration: wavy;
+}
 
 
 
